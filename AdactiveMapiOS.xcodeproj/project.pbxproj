@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E84AD611DFFA0C4006CB679 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E84AD601DFFA0C4006CB679 /* main.m */; };
+		4E84AD641DFFA0C4006CB679 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E84AD631DFFA0C4006CB679 /* AppDelegate.m */; };
+		4E84AD671DFFA0C4006CB679 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E84AD661DFFA0C4006CB679 /* ViewController.m */; };
+		4E84AD6A1DFFA0C5006CB679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E84AD681DFFA0C5006CB679 /* Main.storyboard */; };
+		4E84AD6C1DFFA0C5006CB679 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E84AD6B1DFFA0C5006CB679 /* Assets.xcassets */; };
+		4E84AD6F1DFFA0C5006CB679 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E84AD6D1DFFA0C5006CB679 /* LaunchScreen.storyboard */; };
+		4E84AD7A1DFFA0C5006CB679 /* AdactiveMapiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E84AD791DFFA0C5006CB679 /* AdactiveMapiOSTests.m */; };
+		4E84AD851DFFA0C5006CB679 /* AdactiveMapiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E84AD841DFFA0C5006CB679 /* AdactiveMapiOSUITests.m */; };
+		4E84AD941DFFA281006CB679 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84AD931DFFA281006CB679 /* Foundation.framework */; };
+		4E84AD961DFFA288006CB679 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84AD951DFFA288006CB679 /* CoreFoundation.framework */; };
+		4E84AD981DFFA28E006CB679 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84AD971DFFA28E006CB679 /* Accelerate.framework */; };
+		4E84AD9A1DFFA295006CB679 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84AD991DFFA295006CB679 /* MobileCoreServices.framework */; };
+		4E84AD9C1DFFA29B006CB679 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84AD9B1DFFA29B006CB679 /* UIKit.framework */; };
+		4E84AD9E1DFFA2A6006CB679 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84AD9D1DFFA2A6006CB679 /* ImageIO.framework */; };
+		4E84ADA01DFFA2B6006CB679 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84AD9F1DFFA2B6006CB679 /* libz.tbd */; };
+		4E84ADA21DFFA2C8006CB679 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84ADA11DFFA2C8006CB679 /* libc++.tbd */; };
+		4E84ADA91DFFC495006CB679 /* AdsumCaCert.pem in Resources */ = {isa = PBXBuildFile; fileRef = 4E84ADA71DFFC495006CB679 /* AdsumCaCert.pem */; };
+		4E84ADAA1DFFC495006CB679 /* AdsumConfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4E84ADA81DFFC495006CB679 /* AdsumConfig.xml */; };
+		4E84ADAE1DFFC4E1006CB679 /* AdsumFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E84ADAB1DFFC4E1006CB679 /* AdsumFont.ttf */; };
+		4E84ADAF1DFFC4E1006CB679 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E84ADAC1DFFC4E1006CB679 /* marker.png */; };
+		4E84ADB01DFFC4E1006CB679 /* path.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E84ADAD1DFFC4E1006CB679 /* path.png */; };
+		4E84ADBC1DFFCEF4006CB679 /* AdsumIOSAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E84ADBB1DFFCEF4006CB679 /* AdsumIOSAPI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E84AD761DFFA0C5006CB679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E84AD541DFFA0C4006CB679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E84AD5B1DFFA0C4006CB679;
+			remoteInfo = AdactiveMapiOS;
+		};
+		4E84AD811DFFA0C5006CB679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E84AD541DFFA0C4006CB679 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E84AD5B1DFFA0C4006CB679;
+			remoteInfo = AdactiveMapiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E7F30271E02C08D00638DB2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4E84AD5C1DFFA0C4006CB679 /* AdactiveMapiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdactiveMapiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E84AD601DFFA0C4006CB679 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E84AD621DFFA0C4006CB679 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E84AD631DFFA0C4006CB679 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E84AD651DFFA0C4006CB679 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E84AD661DFFA0C4006CB679 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E84AD691DFFA0C5006CB679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E84AD6B1DFFA0C5006CB679 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E84AD6E1DFFA0C5006CB679 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E84AD701DFFA0C5006CB679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E84AD751DFFA0C5006CB679 /* AdactiveMapiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdactiveMapiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E84AD791DFFA0C5006CB679 /* AdactiveMapiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdactiveMapiOSTests.m; sourceTree = "<group>"; };
+		4E84AD7B1DFFA0C5006CB679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E84AD801DFFA0C5006CB679 /* AdactiveMapiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdactiveMapiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E84AD841DFFA0C5006CB679 /* AdactiveMapiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdactiveMapiOSUITests.m; sourceTree = "<group>"; };
+		4E84AD861DFFA0C5006CB679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E84AD931DFFA281006CB679 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E84AD951DFFA288006CB679 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		4E84AD971DFFA28E006CB679 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		4E84AD991DFFA295006CB679 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4E84AD9B1DFFA29B006CB679 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E84AD9D1DFFA2A6006CB679 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4E84AD9F1DFFA2B6006CB679 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		4E84ADA11DFFA2C8006CB679 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		4E84ADA71DFFC495006CB679 /* AdsumCaCert.pem */ = {isa = PBXFileReference; lastKnownFileType = text; path = AdsumCaCert.pem; sourceTree = "<group>"; };
+		4E84ADA81DFFC495006CB679 /* AdsumConfig.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AdsumConfig.xml; sourceTree = "<group>"; };
+		4E84ADAB1DFFC4E1006CB679 /* AdsumFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AdsumFont.ttf; sourceTree = "<group>"; };
+		4E84ADAC1DFFC4E1006CB679 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
+		4E84ADAD1DFFC4E1006CB679 /* path.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = path.png; sourceTree = "<group>"; };
+		4E84ADBB1DFFCEF4006CB679 /* AdsumIOSAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdsumIOSAPI.framework; path = AdactiveMapiOS/AdsumIOSAPI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E84AD591DFFA0C4006CB679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E84ADBC1DFFCEF4006CB679 /* AdsumIOSAPI.framework in Frameworks */,
+				4E84ADA21DFFA2C8006CB679 /* libc++.tbd in Frameworks */,
+				4E84ADA01DFFA2B6006CB679 /* libz.tbd in Frameworks */,
+				4E84AD9E1DFFA2A6006CB679 /* ImageIO.framework in Frameworks */,
+				4E84AD9C1DFFA29B006CB679 /* UIKit.framework in Frameworks */,
+				4E84AD9A1DFFA295006CB679 /* MobileCoreServices.framework in Frameworks */,
+				4E84AD981DFFA28E006CB679 /* Accelerate.framework in Frameworks */,
+				4E84AD961DFFA288006CB679 /* CoreFoundation.framework in Frameworks */,
+				4E84AD941DFFA281006CB679 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E84AD721DFFA0C5006CB679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E84AD7D1DFFA0C5006CB679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E84AD531DFFA0C4006CB679 = {
+			isa = PBXGroup;
+			children = (
+				4E84AD5E1DFFA0C4006CB679 /* AdactiveMapiOS */,
+				4E84AD781DFFA0C5006CB679 /* AdactiveMapiOSTests */,
+				4E84AD831DFFA0C5006CB679 /* AdactiveMapiOSUITests */,
+				4E84AD5D1DFFA0C4006CB679 /* Products */,
+				4E84AD921DFFA281006CB679 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E84AD5D1DFFA0C4006CB679 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E84AD5C1DFFA0C4006CB679 /* AdactiveMapiOS.app */,
+				4E84AD751DFFA0C5006CB679 /* AdactiveMapiOSTests.xctest */,
+				4E84AD801DFFA0C5006CB679 /* AdactiveMapiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E84AD5E1DFFA0C4006CB679 /* AdactiveMapiOS */ = {
+			isa = PBXGroup;
+			children = (
+				4E84AD621DFFA0C4006CB679 /* AppDelegate.h */,
+				4E84AD631DFFA0C4006CB679 /* AppDelegate.m */,
+				4E84AD651DFFA0C4006CB679 /* ViewController.h */,
+				4E84AD661DFFA0C4006CB679 /* ViewController.m */,
+				4E84AD681DFFA0C5006CB679 /* Main.storyboard */,
+				4E84AD6B1DFFA0C5006CB679 /* Assets.xcassets */,
+				4E84AD6D1DFFA0C5006CB679 /* LaunchScreen.storyboard */,
+				4E84AD701DFFA0C5006CB679 /* Info.plist */,
+				4E84ADB11DFFC4E8006CB679 /* Resources */,
+				4E84AD5F1DFFA0C4006CB679 /* Supporting Files */,
+			);
+			path = AdactiveMapiOS;
+			sourceTree = "<group>";
+		};
+		4E84AD5F1DFFA0C4006CB679 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E84AD601DFFA0C4006CB679 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E84AD781DFFA0C5006CB679 /* AdactiveMapiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E84AD791DFFA0C5006CB679 /* AdactiveMapiOSTests.m */,
+				4E84AD7B1DFFA0C5006CB679 /* Info.plist */,
+			);
+			path = AdactiveMapiOSTests;
+			sourceTree = "<group>";
+		};
+		4E84AD831DFFA0C5006CB679 /* AdactiveMapiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E84AD841DFFA0C5006CB679 /* AdactiveMapiOSUITests.m */,
+				4E84AD861DFFA0C5006CB679 /* Info.plist */,
+			);
+			path = AdactiveMapiOSUITests;
+			sourceTree = "<group>";
+		};
+		4E84AD921DFFA281006CB679 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E7F30271E02C08D00638DB2 /* CoreLocation.framework */,
+				4E84ADBB1DFFCEF4006CB679 /* AdsumIOSAPI.framework */,
+				4E84ADA11DFFA2C8006CB679 /* libc++.tbd */,
+				4E84AD9F1DFFA2B6006CB679 /* libz.tbd */,
+				4E84AD9D1DFFA2A6006CB679 /* ImageIO.framework */,
+				4E84AD9B1DFFA29B006CB679 /* UIKit.framework */,
+				4E84AD991DFFA295006CB679 /* MobileCoreServices.framework */,
+				4E84AD971DFFA28E006CB679 /* Accelerate.framework */,
+				4E84AD951DFFA288006CB679 /* CoreFoundation.framework */,
+				4E84AD931DFFA281006CB679 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E84ADB11DFFC4E8006CB679 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E84ADAB1DFFC4E1006CB679 /* AdsumFont.ttf */,
+				4E84ADAC1DFFC4E1006CB679 /* marker.png */,
+				4E84ADAD1DFFC4E1006CB679 /* path.png */,
+				4E84ADA71DFFC495006CB679 /* AdsumCaCert.pem */,
+				4E84ADA81DFFC495006CB679 /* AdsumConfig.xml */,
+			);
+			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E84AD5B1DFFA0C4006CB679 /* AdactiveMapiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E84AD891DFFA0C5006CB679 /* Build configuration list for PBXNativeTarget "AdactiveMapiOS" */;
+			buildPhases = (
+				4E84AD581DFFA0C4006CB679 /* Sources */,
+				4E84AD591DFFA0C4006CB679 /* Frameworks */,
+				4E84AD5A1DFFA0C4006CB679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdactiveMapiOS;
+			productName = AdactiveMapiOS;
+			productReference = 4E84AD5C1DFFA0C4006CB679 /* AdactiveMapiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E84AD741DFFA0C5006CB679 /* AdactiveMapiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E84AD8C1DFFA0C5006CB679 /* Build configuration list for PBXNativeTarget "AdactiveMapiOSTests" */;
+			buildPhases = (
+				4E84AD711DFFA0C5006CB679 /* Sources */,
+				4E84AD721DFFA0C5006CB679 /* Frameworks */,
+				4E84AD731DFFA0C5006CB679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E84AD771DFFA0C5006CB679 /* PBXTargetDependency */,
+			);
+			name = AdactiveMapiOSTests;
+			productName = AdactiveMapiOSTests;
+			productReference = 4E84AD751DFFA0C5006CB679 /* AdactiveMapiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E84AD7F1DFFA0C5006CB679 /* AdactiveMapiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E84AD8F1DFFA0C5006CB679 /* Build configuration list for PBXNativeTarget "AdactiveMapiOSUITests" */;
+			buildPhases = (
+				4E84AD7C1DFFA0C5006CB679 /* Sources */,
+				4E84AD7D1DFFA0C5006CB679 /* Frameworks */,
+				4E84AD7E1DFFA0C5006CB679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E84AD821DFFA0C5006CB679 /* PBXTargetDependency */,
+			);
+			name = AdactiveMapiOSUITests;
+			productName = AdactiveMapiOSUITests;
+			productReference = 4E84AD801DFFA0C5006CB679 /* AdactiveMapiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E84AD541DFFA0C4006CB679 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Aiza Simbra";
+				TargetAttributes = {
+					4E84AD5B1DFFA0C4006CB679 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 65X8TJ7L5Y;
+						ProvisioningStyle = Automatic;
+					};
+					4E84AD741DFFA0C5006CB679 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E84AD5B1DFFA0C4006CB679;
+					};
+					4E84AD7F1DFFA0C5006CB679 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E84AD5B1DFFA0C4006CB679;
+					};
+				};
+			};
+			buildConfigurationList = 4E84AD571DFFA0C4006CB679 /* Build configuration list for PBXProject "AdactiveMapiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E84AD531DFFA0C4006CB679;
+			productRefGroup = 4E84AD5D1DFFA0C4006CB679 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E84AD5B1DFFA0C4006CB679 /* AdactiveMapiOS */,
+				4E84AD741DFFA0C5006CB679 /* AdactiveMapiOSTests */,
+				4E84AD7F1DFFA0C5006CB679 /* AdactiveMapiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E84AD5A1DFFA0C4006CB679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E84ADAE1DFFC4E1006CB679 /* AdsumFont.ttf in Resources */,
+				4E84ADAF1DFFC4E1006CB679 /* marker.png in Resources */,
+				4E84ADB01DFFC4E1006CB679 /* path.png in Resources */,
+				4E84ADA91DFFC495006CB679 /* AdsumCaCert.pem in Resources */,
+				4E84ADAA1DFFC495006CB679 /* AdsumConfig.xml in Resources */,
+				4E84AD6F1DFFA0C5006CB679 /* LaunchScreen.storyboard in Resources */,
+				4E84AD6C1DFFA0C5006CB679 /* Assets.xcassets in Resources */,
+				4E84AD6A1DFFA0C5006CB679 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E84AD731DFFA0C5006CB679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E84AD7E1DFFA0C5006CB679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E84AD581DFFA0C4006CB679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E84AD671DFFA0C4006CB679 /* ViewController.m in Sources */,
+				4E84AD641DFFA0C4006CB679 /* AppDelegate.m in Sources */,
+				4E84AD611DFFA0C4006CB679 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E84AD711DFFA0C5006CB679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E84AD7A1DFFA0C5006CB679 /* AdactiveMapiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E84AD7C1DFFA0C5006CB679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E84AD851DFFA0C5006CB679 /* AdactiveMapiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E84AD771DFFA0C5006CB679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E84AD5B1DFFA0C4006CB679 /* AdactiveMapiOS */;
+			targetProxy = 4E84AD761DFFA0C5006CB679 /* PBXContainerItemProxy */;
+		};
+		4E84AD821DFFA0C5006CB679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E84AD5B1DFFA0C4006CB679 /* AdactiveMapiOS */;
+			targetProxy = 4E84AD811DFFA0C5006CB679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E84AD681DFFA0C5006CB679 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E84AD691DFFA0C5006CB679 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E84AD6D1DFFA0C5006CB679 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E84AD6E1DFFA0C5006CB679 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E84AD871DFFA0C5006CB679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E84AD881DFFA0C5006CB679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E84AD8A1DFFA0C5006CB679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X8TJ7L5Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdactiveMapiOS",
+				);
+				HEADER_SEARCH_PATHS = $SRCROOT/AdsumIOSAPI.framework/Headers;
+				INFOPLIST_FILE = AdactiveMapiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/AdactiveMapiOS/AdsumIOSAPI.framework";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adactive.AdactiveMapiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		4E84AD8B1DFFA0C5006CB679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65X8TJ7L5Y;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AdactiveMapiOS",
+				);
+				HEADER_SEARCH_PATHS = $SRCROOT/AdsumIOSAPI.framework/Headers;
+				INFOPLIST_FILE = AdactiveMapiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/AdactiveMapiOS/AdsumIOSAPI.framework";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adactive.AdactiveMapiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		4E84AD8D1DFFA0C5006CB679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdactiveMapiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adactive.AdactiveMapiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdactiveMapiOS.app/AdactiveMapiOS";
+			};
+			name = Debug;
+		};
+		4E84AD8E1DFFA0C5006CB679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AdactiveMapiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adactive.AdactiveMapiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdactiveMapiOS.app/AdactiveMapiOS";
+			};
+			name = Release;
+		};
+		4E84AD901DFFA0C5006CB679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdactiveMapiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adactive.AdactiveMapiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdactiveMapiOS;
+			};
+			name = Debug;
+		};
+		4E84AD911DFFA0C5006CB679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AdactiveMapiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adactive.AdactiveMapiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AdactiveMapiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E84AD571DFFA0C4006CB679 /* Build configuration list for PBXProject "AdactiveMapiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E84AD871DFFA0C5006CB679 /* Debug */,
+				4E84AD881DFFA0C5006CB679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E84AD891DFFA0C5006CB679 /* Build configuration list for PBXNativeTarget "AdactiveMapiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E84AD8A1DFFA0C5006CB679 /* Debug */,
+				4E84AD8B1DFFA0C5006CB679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E84AD8C1DFFA0C5006CB679 /* Build configuration list for PBXNativeTarget "AdactiveMapiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E84AD8D1DFFA0C5006CB679 /* Debug */,
+				4E84AD8E1DFFA0C5006CB679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E84AD8F1DFFA0C5006CB679 /* Build configuration list for PBXNativeTarget "AdactiveMapiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E84AD901DFFA0C5006CB679 /* Debug */,
+				4E84AD911DFFA0C5006CB679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E84AD541DFFA0C4006CB679 /* Project object */;
+}
